@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09FA5689144467C800A9505B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FA5688144467C800A9505B /* UIKit.framework */; };
+		09FA568B144467C800A9505B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FA568A144467C800A9505B /* Foundation.framework */; };
+		09FA568D144467C800A9505B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FA568C144467C800A9505B /* CoreGraphics.framework */; };
+		09FA5693144467C800A9505B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09FA5691144467C800A9505B /* InfoPlist.strings */; };
+		09FA5695144467C800A9505B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FA5694144467C800A9505B /* main.m */; };
+		09FA5699144467C800A9505B /* CocoaHeadsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FA5698144467C800A9505B /* CocoaHeadsAppDelegate.m */; };
+		09FA569C144467C800A9505B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09FA569A144467C800A9505B /* MainWindow.xib */; };
+		09FA569F144467C800A9505B /* CocoaHeadsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FA569E144467C800A9505B /* CocoaHeadsViewController.m */; };
+		09FA56A2144467C800A9505B /* CocoaHeadsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09FA56A0144467C800A9505B /* CocoaHeadsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09FA5684144467C800A9505B /* CocoaHeads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaHeads.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09FA5688144467C800A9505B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		09FA568A144467C800A9505B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09FA568C144467C800A9505B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		09FA5690144467C800A9505B /* CocoaHeads-Info.plist */ = {isa = PBXFileReference; path = "CocoaHeads-Info.plist"; sourceTree = "<group>"; };
+		09FA5692144467C800A9505B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09FA5694144467C800A9505B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09FA5696144467C800A9505B /* CocoaHeads-Prefix.pch */ = {isa = PBXFileReference; path = "CocoaHeads-Prefix.pch"; sourceTree = "<group>"; };
+		09FA5697144467C800A9505B /* CocoaHeadsAppDelegate.h */ = {isa = PBXFileReference; path = CocoaHeadsAppDelegate.h; sourceTree = "<group>"; };
+		09FA5698144467C800A9505B /* CocoaHeadsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaHeadsAppDelegate.m; sourceTree = "<group>"; };
+		09FA569B144467C800A9505B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		09FA569D144467C800A9505B /* CocoaHeadsViewController.h */ = {isa = PBXFileReference; path = CocoaHeadsViewController.h; sourceTree = "<group>"; };
+		09FA569E144467C800A9505B /* CocoaHeadsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaHeadsViewController.m; sourceTree = "<group>"; };
+		09FA56A1144467C800A9505B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CocoaHeadsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09FA5681144467C800A9505B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FA5689144467C800A9505B /* UIKit.framework in Frameworks */,
+				09FA568B144467C800A9505B /* Foundation.framework in Frameworks */,
+				09FA568D144467C800A9505B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09FA5679144467C800A9505B = {
+			isa = PBXGroup;
+			children = (
+				09FA568E144467C800A9505B /* CocoaHeads */,
+				09FA5687144467C800A9505B /* Frameworks */,
+				09FA5685144467C800A9505B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09FA5685144467C800A9505B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09FA5684144467C800A9505B /* CocoaHeads.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09FA5687144467C800A9505B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09FA5688144467C800A9505B /* UIKit.framework */,
+				09FA568A144467C800A9505B /* Foundation.framework */,
+				09FA568C144467C800A9505B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09FA568E144467C800A9505B /* CocoaHeads */ = {
+			isa = PBXGroup;
+			children = (
+				09FA5697144467C800A9505B /* CocoaHeadsAppDelegate.h */,
+				09FA5698144467C800A9505B /* CocoaHeadsAppDelegate.m */,
+				09FA569A144467C800A9505B /* MainWindow.xib */,
+				09FA569D144467C800A9505B /* CocoaHeadsViewController.h */,
+				09FA569E144467C800A9505B /* CocoaHeadsViewController.m */,
+				09FA56A0144467C800A9505B /* CocoaHeadsViewController.xib */,
+				09FA568F144467C800A9505B /* Supporting Files */,
+			);
+			path = CocoaHeads;
+			sourceTree = "<group>";
+		};
+		09FA568F144467C800A9505B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09FA5690144467C800A9505B /* CocoaHeads-Info.plist */,
+				09FA5691144467C800A9505B /* InfoPlist.strings */,
+				09FA5694144467C800A9505B /* main.m */,
+				09FA5696144467C800A9505B /* CocoaHeads-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09FA5683144467C800A9505B /* CocoaHeads */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09FA56A5144467C800A9505B /* Build configuration list for PBXNativeTarget "CocoaHeads" */;
+			buildPhases = (
+				09FA5680144467C800A9505B /* Sources */,
+				09FA5681144467C800A9505B /* Frameworks */,
+				09FA5682144467C800A9505B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaHeads;
+			productName = CocoaHeads;
+			productReference = 09FA5684144467C800A9505B /* CocoaHeads.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09FA567B144467C800A9505B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 09FA567E144467C800A9505B /* Build configuration list for PBXProject "CocoaHeads" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09FA5679144467C800A9505B;
+			productRefGroup = 09FA5685144467C800A9505B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09FA5683144467C800A9505B /* CocoaHeads */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09FA5682144467C800A9505B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FA5693144467C800A9505B /* InfoPlist.strings in Resources */,
+				09FA569C144467C800A9505B /* MainWindow.xib in Resources */,
+				09FA56A2144467C800A9505B /* CocoaHeadsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09FA5680144467C800A9505B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FA5695144467C800A9505B /* main.m in Sources */,
+				09FA5699144467C800A9505B /* CocoaHeadsAppDelegate.m in Sources */,
+				09FA569F144467C800A9505B /* CocoaHeadsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09FA5691144467C800A9505B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09FA5692144467C800A9505B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		09FA569A144467C800A9505B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09FA569B144467C800A9505B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		09FA56A0144467C800A9505B /* CocoaHeadsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09FA56A1144467C800A9505B /* en */,
+			);
+			name = CocoaHeadsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09FA56A3144467C800A9505B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09FA56A4144467C800A9505B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09FA56A6144467C800A9505B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaHeads/CocoaHeads-Prefix.pch";
+				INFOPLIST_FILE = "CocoaHeads/CocoaHeads-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09FA56A7144467C800A9505B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaHeads/CocoaHeads-Prefix.pch";
+				INFOPLIST_FILE = "CocoaHeads/CocoaHeads-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09FA567E144467C800A9505B /* Build configuration list for PBXProject "CocoaHeads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FA56A3144467C800A9505B /* Debug */,
+				09FA56A4144467C800A9505B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09FA56A5144467C800A9505B /* Build configuration list for PBXNativeTarget "CocoaHeads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FA56A6144467C800A9505B /* Debug */,
+				09FA56A7144467C800A9505B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09FA567B144467C800A9505B /* Project object */;
+}
