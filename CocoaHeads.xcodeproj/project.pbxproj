@@ -16,6 +16,7 @@
 		09FA569C144467C800A9505B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09FA569A144467C800A9505B /* MainWindow.xib */; };
 		09FA569F144467C800A9505B /* CocoaHeadsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FA569E144467C800A9505B /* CocoaHeadsViewController.m */; };
 		09FA56A2144467C800A9505B /* CocoaHeadsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09FA56A0144467C800A9505B /* CocoaHeadsViewController.xib */; };
+		09FA56A9144467E200A9505B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FA56A8144467E200A9505B /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,17 @@
 		09FA5688144467C800A9505B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		09FA568A144467C800A9505B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		09FA568C144467C800A9505B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		09FA5690144467C800A9505B /* CocoaHeads-Info.plist */ = {isa = PBXFileReference; path = "CocoaHeads-Info.plist"; sourceTree = "<group>"; };
+		09FA5690144467C800A9505B /* CocoaHeads-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaHeads-Info.plist"; sourceTree = "<group>"; };
 		09FA5692144467C800A9505B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		09FA5694144467C800A9505B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		09FA5696144467C800A9505B /* CocoaHeads-Prefix.pch */ = {isa = PBXFileReference; path = "CocoaHeads-Prefix.pch"; sourceTree = "<group>"; };
-		09FA5697144467C800A9505B /* CocoaHeadsAppDelegate.h */ = {isa = PBXFileReference; path = CocoaHeadsAppDelegate.h; sourceTree = "<group>"; };
+		09FA5696144467C800A9505B /* CocoaHeads-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaHeads-Prefix.pch"; sourceTree = "<group>"; };
+		09FA5697144467C800A9505B /* CocoaHeadsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaHeadsAppDelegate.h; sourceTree = "<group>"; };
 		09FA5698144467C800A9505B /* CocoaHeadsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaHeadsAppDelegate.m; sourceTree = "<group>"; };
 		09FA569B144467C800A9505B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		09FA569D144467C800A9505B /* CocoaHeadsViewController.h */ = {isa = PBXFileReference; path = CocoaHeadsViewController.h; sourceTree = "<group>"; };
+		09FA569D144467C800A9505B /* CocoaHeadsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaHeadsViewController.h; sourceTree = "<group>"; };
 		09FA569E144467C800A9505B /* CocoaHeadsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaHeadsViewController.m; sourceTree = "<group>"; };
 		09FA56A1144467C800A9505B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CocoaHeadsViewController.xib; sourceTree = "<group>"; };
+		09FA56A8144467E200A9505B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09FA56A9144467E200A9505B /* CoreLocation.framework in Frameworks */,
 				09FA5689144467C800A9505B /* UIKit.framework in Frameworks */,
 				09FA568B144467C800A9505B /* Foundation.framework in Frameworks */,
 				09FA568D144467C800A9505B /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +72,7 @@
 		09FA5687144467C800A9505B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				09FA56A8144467E200A9505B /* CoreLocation.framework */,
 				09FA5688144467C800A9505B /* UIKit.framework */,
 				09FA568A144467C800A9505B /* Foundation.framework */,
 				09FA568C144467C800A9505B /* CoreGraphics.framework */,
